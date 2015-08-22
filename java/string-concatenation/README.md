@@ -18,7 +18,7 @@ You can compile classes as follows:
 $ ./gradlew build
 ```
 
-Micro-benchmarks are executable with the following command:
+Micro-benchmarks are runnable with the following command:
 
 ```bash
 $ ./gradlew jmh
