@@ -4,8 +4,13 @@ Resources used for my Blog post:
 
 http://www.pellegrino.link/2015/08/22/string-concatenation-with-java-8.html
 
-
 ## Usage
+
+If you want to import the module with Intellij, you need to run the next command first:
+
+```bash
+$ ./gradlew idea
+```
 
 You can compile classes as follows:
 
@@ -13,7 +18,7 @@ You can compile classes as follows:
 $ ./gradlew build
 ```
 
-Micro-benchmarks are executable as follows:
+Micro-benchmarks are executable with the following command:
 
 ```bash
 $ ./gradlew jmh
